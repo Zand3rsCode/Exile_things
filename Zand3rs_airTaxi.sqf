@@ -70,35 +70,14 @@ if (isNil "Zand3rsChopper") then
 	_waypoint setWaypointVisible true;
 	_waypoint setWaypointStatements ["true", "Zand3rsChopper land 'GET IN'"];
 
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	while {true} do {
-
-
-
-
 
 	// Wait until player gets in the chopper
 	waitUntil { player in (crew Zand3rsChopper) };		
 
+
 	// If player Dies or being retarded and just looking at it the shopper should just fly away.
+	// IM RETARDED!
 
 
 
@@ -106,7 +85,9 @@ if (isNil "Zand3rsChopper") then
 
 
 
-// IM RETARDED!
+
+
+
 
 
 
