@@ -29,7 +29,7 @@ if(_lock isEqualTo -1)then
         if(_vehicle_in_SZ)then{
                 _vehicleObj = str _vehicleObject select [19];
                 _vehicleObj = _vehicleObj select [0,count _vehicleObj - 4];
-                diag_log format ["GR8 : Teleporting %1 ID: %2 owned by %3 (%4) @ %5 ###", _vehicleObj, _vehicleID, (_vehicleObject getVariable "ExileOwnerUID"), _pinCode, _position];
+                diag_log format ["Teleporting %1 ID: %2 owned by %3 (%4) @ %5 ###", _vehicleObj, _vehicleID, (_vehicleObject getVariable "ExileOwnerUID"), _pinCode, _position];
                 _vehicleObject setVariable ["ExileIsLocked",0];
                 _vehicleObject lock 0;
                 _vehicleObject enableRopeAttach true;
